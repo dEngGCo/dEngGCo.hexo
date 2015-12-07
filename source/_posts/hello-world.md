@@ -35,3 +35,14 @@ $ hexo deploy
 ```
 
 More info: [Deployment](http://hexo.io/docs/deployment.html)
+
+---
+### Test Java Code
+
+``` java
+public class Test{
+	public static void main(String[] args) {
+		System.out.print("Hello,Hexo");
+	}
+}
+```
