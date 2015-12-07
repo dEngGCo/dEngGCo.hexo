@@ -11,7 +11,7 @@ keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /
 
 # Specify the date when the site was setup
 #since: 2015
@@ -31,7 +31,8 @@ menu:
   #about: /about
   archives: /archives
   tags: /tags
-  #commonweal: /404.html
+  commonweal: /404.html
+  search: /
 
 
 # Enable/Disable menu icons.
@@ -48,6 +49,7 @@ menu_icons:
   tags: tags
   archives: archive
   commonweal: heartbeat
+  search: search
 
 
 
@@ -69,8 +71,8 @@ scheme: Pisces
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/dEngGCo
   #Others:
 
 # Social Icons
@@ -102,8 +104,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.

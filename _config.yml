@@ -38,15 +38,24 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  tab_replace:
+    enable: true
+    line_number: true
+    auto_detect: true
+    tab_replace:
 
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
+# friend links
+links_title: links
+
+# links
+links:
+    MacTalk: http://macshuo.com/
+    MacTalk1: http://macshuo.com/ 
+    MacTalk2: http://macshuo.com/
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
